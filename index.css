@@ -31,7 +31,9 @@
   background: #5E4485!important;
   border: 2px solid #FFF !important;
 }
-
+.container{
+  margin: 4% auto;
+}
 #icon{
   max-width: 200px;
   margin: 1% auto;
