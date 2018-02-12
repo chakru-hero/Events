@@ -8,7 +8,7 @@ body {
   border-radius: 0 !important;
   background-color: #5E4485 !important;
   color: #FFF !important;
-  padding: 2% 0 !important;
+  padding: 0 !important;
   font-size: 1.2em !important;
   border: 0 !important;
 }
@@ -42,7 +42,15 @@ body {
   border: 2px solid #FFF !important;
 }
 
+.btn:hover {
+  background-color: #5E4495 !important
+}
+
 .container {
+  margin: 1% auto;
+}
+
+.container, .pb-modalreglog-container {
   margin: 1% auto;
 }
 
@@ -84,4 +92,34 @@ footer {
 
 p {
   font-size: 1.2em;
+}
+
+.mag {
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 220px;
+}
+
+.pb-modalreglog-input-group {
+  margin: auto;
+}
+
+.pb-modalreglog-submit {
+  margin-left: 5px;
+}
+
+.pb-modalreglog-form-reg {
+  text-align: center;
+}
+
+label {
+  color: #9E9B9A;
+}
+
+.modal-title {
+  color: black;
+}
+
+#pb-modalreglog-progressbar {
+  border-radius: 2px;
 }
