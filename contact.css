@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
   margin-bottom: 0 !important;
   border-radius: 0 !important;
   background-color: #5E4485 !important;
@@ -7,15 +7,41 @@
   font-size: 1.2em !important;
   border: 0 !important;
 }
-.navbar-brand{
+
+.navbar-brand {
   float: left !important;
   min-height: 55px !important;
   padding: 0 15px 5px !important;
 }
-.navbar-inverse .navbar-nav .active a,   .navbar-inverse .navbar-nav .active a:focus,  .navbar-inverse .navbar-nav .active a:hover{
+
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
   color: #FFF !important;
   background-color: #5E4485 !important;
 }
-.navbar-inverse .navbar-nav li a{
+
+.navbar-inverse .navbar-nav li a {
   color: #D5D5D5 !important;
+}
+
+.container {
+  padding: 2% !important;
+}
+
+footer {
+  margin: 0 !important;
+  width: 100%;
+  background-color: #5E4485;
+  padding: 2%;
+  color: #FFF;
+}
+
+.fa-facebook, .fa-twitter, .fa-google, .fa-instagram {
+  padding: 20px;
+  font-size: 30px !important;
+  color: #FFF;
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-google:hover, .fa-instagram:hover {
+  color: #9E9B9A;
+  text-decoration: none;
 }
